@@ -3,8 +3,17 @@ const promessa = new Promise( function(resolve, reject){
 })
 
 async function start(){
-	const result = await promessa
-	console.log(result)
+	try{
+		const result = await promessa
+		console.log(result);
+	}
+	catch(e){
+		console.log(e);
+	}
+	finally{
+		console.log("Loading");
+	}
+	
 }
 
 start()
