@@ -1,4 +1,4 @@
-class CardNews extends HTMLElement{
+class CardSample extends HTMLElement{
     constructor(){
         super();
 
@@ -9,4 +9,4 @@ class CardNews extends HTMLElement{
     }
 }
 
-customElements.define("card-news", CardNews);
+customElements.define("card-sample", CardSample);
