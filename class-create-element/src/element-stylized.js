@@ -15,7 +15,10 @@ class CardStylized extends HTMLElement{
                 color: red;
             }
         `;
+
+        shadow.appendChild(componentRoot);
+        shadow.appendChild(style);
     }
 }
 
-customElement.define("card-stylized", CardStylized);
+customElements.define("card-stylized", CardStylized);
