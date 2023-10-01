@@ -7,6 +7,7 @@ class CardSample extends HTMLElement{
         });        
         
         build();
+        
     }
 }
 
