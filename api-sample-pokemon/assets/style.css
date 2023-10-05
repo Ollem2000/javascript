@@ -4,23 +4,25 @@
     margin: 0;
 }
 
-.section-pokemon{
+.pokemon_card-container{
+    padding: 16px;
     display: flex;
+    gap: 16px;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
-.card-pokemon{
+.pokemon_card{
     box-shadow: 2px 2px 8px 2px gray;
     border-radius: 8px;
     height: 196px;
     width: 128px;
 }
-    .card-pokemon > .img{
+    .pokemon_card > .img{
         height: 60%;
         border-radius: 8px 8px 0 0;
     }
-    .card-pokemon > .name{
+    .pokemon_card > .name{
         color: white;
         background: lightblue;
         border-radius: 0 0 8px 8px;
