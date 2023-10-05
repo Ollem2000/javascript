@@ -1,6 +1,3 @@
-const api_limit = 10;
-const api_offset = 0;
-
 function toHTML(pokemon){
     return `
     <article class="pokemon_card">
