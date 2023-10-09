@@ -4,10 +4,13 @@ function toHTML(pokemon){
     return `
     <article class="pokemon_card">
         <div class="img">
-            <img alt="${pokemon.name}">
+            <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png" alt="${pokemon.name}">
         </div>
         <div class="name">
             <h3>${pokemon.name}</h3>
+            <p>tipo</p>
+            <p>tipo</p>
+            <span>#001</span>
         </div>
     </article>
     `
