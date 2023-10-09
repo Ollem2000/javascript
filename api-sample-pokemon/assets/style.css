@@ -21,12 +21,32 @@
     .pokemon_card > .img{
         height: 60%;
         border-radius: 8px 8px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+        .pokemon_card > .img > img{
+           padding-top: 32px;
+            width: 96px;
+        }
     .pokemon_card > .name{
         color: white;
         background: lightblue;
         border-radius: 0 0 8px 8px;
+        box-sizing: border-box;
         height: 40%;
         padding: 8px;
-        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
     }
+        .pokemon_card > .name > p{
+            color: black;
+            font-size: 12px;
+            background: white;
+            padding: 9px;
+        }
+        .pokemon_card > .name > span{
+            color: gray;
+            font-size: 10px;
+            text-align: right;
+        }
